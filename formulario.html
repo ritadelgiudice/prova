@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+
+    <title>Index</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark \fixed-top">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hotlist.html">HotList</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="lancamento.html">Lançamentos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="noticias.html">Noticias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disable" href="formulario.html">Fale Conosco</a>
+                </li>
+            </ul>
+        </nav>
+       
+       <div class="jumbotron ">
+            <h1 class="text-info">Entre em contato conosco</h1>
+            <h2 class="font-weight-light">E nos envie uma sugestão</h2>
+    </div>
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <legend>Preencha com suas informações</legend>
+
+                <div class="form-group">
+                    <label for="nome">Nome do Usuário</label>
+                    <input type="name" class="form-control" id="name" aria-describedby="nameHelp"
+                        placeholder="Nome Completo">
+                    <small id="nameHelp" class="form-text text-muted">Campo obrigatório</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                        placeholder="Digite seu e-mail">
+                    <small id="emailHelp" class="form-text text-muted">Campo obrigatório</small>
+                </div>
+
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                    <label class="form-check-label" for="autoSizingCheck">
+                        Lembrar de mim
+                    </label>
+                </div>
+
+                <fieldset id="sexo">
+                    <p>Sexo</p>
+                    <input type="radio" name="txtSexo" id="masc" />
+                    <label for="masc">Masculino
+                        <input type="radio" name="txtSexo" id="fem" />
+                        <label for="fem">Feminino
+                </fieldset>
+
+                <div class="form-group">
+                    <label for="data">Data de Nascimento</label>
+                    <input type="date" class="form-control" id="data" aria-describedby="dataHelp"
+                        placeholder="dd/mm/aaaa">
+                    <small id="dataHelp" class="form-text text-muted">Campo obrigatório</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="cidade">Cidade</label>
+                    <input type="cidade" class="form-control" id="cidade" aria-describedby="cidadeHelp"
+                        placeholder="Digite sua cidade">
+                    <small id="cidadeHelp" class="form-text text-muted">Campo obrigatório</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputEstado">Estado</label>
+                    <select id="inputEstado" class="form-control">
+                        <option selected>Estado</option>
+                        <option>Amazonas</option>
+                        <option>Bahia</option>
+                        <option>Espírito Santo</option>
+                        <option>Mato Grosso</option>
+                        <option>Minas Gerais</option>
+                        <option>Paraná</option>
+                        <option>Rio de Janeiro</option>
+                        <option>Santa Catarina</option>
+                        <option>São Paulo</option>
+                        <option>Tocantins</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Sugestão</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="button" class="btn btn-outline-success">Enviar</button>
+                <button type="button" class="btn btn-outline-danger">Cancelar</button>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="col-4"></div>
+    </div>
+    </div>
+
+</body>
+
+<footer id="rodape"><br /> <br /> <br /> <br />
+    <p>Copyright 2019 - 2EMIA - ETEC PEDRO FERREIRA ALVES </br>
+        Todos direitos reservados a Rita Del Giudice & Vitória Andrade
+    </p>
+</footer>
